@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 98vh;
+    background-color:  #996633;
+}
+
+body #background-chuck {
+    margin-top: 50px;
+    background: url('https://cdn.pixabay.com/photo/2013/07/13/13/34/man-161135_1280.png');
+    height: inherit;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 500px 600px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#get-joke {
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+    border: none;
+    background-color: brown;
+    border-radius: 5px;
+    border: 2px solid violet;
+    font-size: 18px;
+    color: white;
+}
+
+#joke {
+    width: 1300px;
+    margin: 10px auto;
+    display: flex;
+    background-color: #ff8c1a;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
